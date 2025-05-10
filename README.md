@@ -1,33 +1,42 @@
 # Agentic-Rag
 
-# **Agentic RAG:** A Smart Chatbot for Your Product Assistant
+# **Agentic RAG:** The Intelligent Product Assistant Chatbot
 
-A smart, interactive chat assistant that helps users find information about products, track orders, and answer FAQs using Retrieval-Augmented Generation (RAG).
 
+Agentic RAG is your smart, interactive assistant that combines the power of AI and advanced retrieval systems to provide users with instant access to product information, order status updates, and accurate answers to frequently asked questions, all using Retrieval-Augmented Generation (RAG) technology.
 ---
 
 ## 📋 Overview
 
-This project implements a **Streamlit-based chat interface** that connects to a **LangFlow API** to provide intelligent responses about products and orders. The assistant uses RAG to retrieve relevant information from a knowledge base of products and orders.
+Welcome to Agentic RAG, where AI meets productivity! This project creates an intelligent chatbot built on Streamlit and powered by the LangFlow API. It enables users to seamlessly interact with a smart assistant that can look up products, track orders, and answer a variety of customer inquiries by pulling the most relevant data from a knowledge base of products and orders.
+
+This project is designed to enhance user experience by blending real-time data retrieval with AI-powered conversations, allowing users to find information quickly and accurately.
 
 ---
 
-## ✨ Features
+## ✨Key Features
 
-- 💬 Interactive chat interface  
-- 🔍 Product information lookup  
-- 📦 Order status tracking  
-- ❓ FAQ answering capabilities  
-- 🤖 AI-powered responses using RAG  
+- Interactive Chat Interface – A user-friendly interface built on Streamlit for easy interaction with the assistant.
+
+- Product Lookup – Retrieve detailed information about products based on their ID or name.
+
+- Order Tracking – Easily track the status of your orders in real-time, providing updates on delivery or fulfillment.
+
+- FAQ Answering – The assistant answers commonly asked questions about shipping, returns, and more.
+
+- AI-Powered Responses – Uses Retrieval-Augmented Generation (RAG) to provide accurate and contextually aware answers to user queries.
 
 ---
 
-## 🛠️ Technology Stack
+**The technology stack behind Agentic RAG ensures a fast, scalable, and secure environment for your chatbot:**
 
-- **Frontend**: Streamlit  
-- **Backend**: LangFlow API  
-- **Data**: CSV files for products and orders  
-- **Authentication**: Environment variables for API tokens  
+- Built with Streamlit to create an easy-to-use and interactive web application.
+
+- Powered by the LangFlow API to generate AI-based responses and perform data retrieval.
+
+- Utilizes CSV files (such as products.csv and orders.csv) to store product and order information.
+
+- Secured with API tokens stored in environment variables for added safety.tokens  
 
 ---
 
@@ -35,7 +44,7 @@ This project implements a **Streamlit-based chat interface** that connects to a 
 
 ### ✅ Prerequisites
 - Python 3.12+
-- LangFlow API access token
+- Get your token to interact with the LangFlow API.
 
 ### 🔧 Installation
 
@@ -69,13 +78,17 @@ The assistant uses two main data sources:
 
 ## 🔄 API Integration
 
-The application connects to a **LangFlow API** endpoint to process user queries and generate responses. The API call is configured in the `run_flow` function in `app.py`.
+The heart of this project is the LangFlow API, which facilitates intelligent responses by integrating data retrieval with generative AI.
+
+- The API call is configured within the run_flow function in app.py, which processes the user's query, retrieves relevant data from the CSV files, and generates accurate responses using the LangFlow service.
 
 ---
 
-## 🧪 Testing
+###**Usage Examples**
+To help you get started, here are a few example queries that the chatbot can handle:
 
-You can test the API connection using the `api_test.py` script:
+- "Tell me about product 201" – Retrieves details like the product name, description, and other features.
 
-```bash
-python api_test.py
+- "What’s the status of order 1002?" – Provides real-time order status and tracking updates.
+
+- "How do I return an item?" – Shares the return policy or steps for returning a product.
