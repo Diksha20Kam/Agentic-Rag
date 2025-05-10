@@ -69,7 +69,7 @@ The assistant uses two main data sources:
 
 ## 🔄 API Integration
 
-The application connects to a **LangFlow API** endpoint to process user queries and generate responses. The API call is configured in the `run_flow` function in `streamlit_ui.py`.
+The application connects to a **LangFlow API** endpoint to process user queries and generate responses. The API call is configured in the `run_flow` function in `app.py`.
 
 ---
 
