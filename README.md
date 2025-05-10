@@ -1,6 +1,6 @@
 # Agentic-Rag
 
-# 🛍️ Agentic RAG: A Smart Chatbot for Your Product Assistant
+# **Agentic RAG:** A Smart Chatbot for Your Product Assistant
 
 A smart, interactive chat assistant that helps users find information about products, track orders, and answer FAQs using Retrieval-Augmented Generation (RAG).
 
